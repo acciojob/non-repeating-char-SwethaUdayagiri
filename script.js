@@ -2,7 +2,7 @@ function firstNonRepeatedChar(str) {
  // Write your code here
 	const arr=[];
 	const a='a';
-	const output=str.charAt(0);
+	const output=null;
 	for(var i=0; i<str.length; i++){
 		if(arr[str.charCodeAt(i)-a.charCodeAt(0)]==undefined){
 			arr[str.charCodeAt(i)-a.charCodeAt(0)]=1;
