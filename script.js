@@ -15,6 +15,7 @@ function firstNonRepeatedChar(str) {
 	for(var i=0;i<arr.length;i++){
 		if(arr[i]==1){
 			output=String.fromCharCode(a.charCodeAt(0)+i);
+			return output;
 		}
 	}
 	return output;
